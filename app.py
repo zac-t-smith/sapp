@@ -1,3 +1,4 @@
+%%writefile app.py
 # Your Streamlit app code here
 # Example:
 import streamlit as st
@@ -165,11 +166,11 @@ elif tabs == "Analytics Dashboard":
         st.metric("Average Utilization Rate", f"{data['Utilization Rate (%)'].mean():.2f}%")
 
 
-else:
-    st.warning("No budgeted values available.")
-
-
-
     else:
-        st.warning("No data available for analysis.")
+        st.warning("No budgeted values available.")
+
+
+
+        else:
+            st.warning("No data available for analysis.")
 
