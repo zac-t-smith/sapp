@@ -1,12 +1,7 @@
 %%writefile app.py
-# Your Streamlit app code here
-# Example:
-import streamlit as st
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from pyngrok import ngrok
 
 # Initialize or load data
 try:
